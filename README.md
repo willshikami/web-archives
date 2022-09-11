@@ -1,3 +1,3 @@
 # web_archives
 
-Web links
+Willard Shikami's web links dump
