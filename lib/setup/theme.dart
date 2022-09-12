@@ -11,50 +11,50 @@ ThemeData appTheme() {
     hoverColor: const Color(0xFF9AA0AC),
 
     // Default font family.
-    fontFamily: 'Urbanist',
+    fontFamily: 'Gilroy',
 
     // Text Theme
     textTheme: const TextTheme(
       headline1: TextStyle(
-        fontFamily: 'Bogart',
+        fontFamily: 'Gilroy',
         fontSize: 64.0,
         fontWeight: FontWeight.w600,
       ),
       headline2: TextStyle(
-        fontFamily: 'Bogart',
+        fontFamily: 'Gilroy',
         fontSize: 42.0,
         fontWeight: FontWeight.w600,
       ),
       headline3: TextStyle(
-        fontFamily: 'Urbanist',
+        fontFamily: 'Gilroy',
         fontSize: 28.0,
         fontWeight: FontWeight.w500,
       ),
       headline4: TextStyle(
-        fontFamily: 'Urbanist',
+        fontFamily: 'Gilroy',
         fontSize: 18.0,
         fontWeight: FontWeight.bold,
       ),
       headline5: TextStyle(
-        fontFamily: 'Urbanist',
+        fontFamily: 'Gilroy',
         fontSize: 16.0,
         fontWeight: FontWeight.bold,
       ),
       headline6: TextStyle(
-        fontFamily: 'Urbanist',
+        fontFamily: 'Gilroy',
         fontSize: 16.0,
       ),
       subtitle1: TextStyle(
-        fontFamily: 'Rampant One',
+        fontFamily: 'Gilroy',
         fontSize: 38.0,
       ),
       bodyText1: TextStyle(
-        fontFamily: 'Urbanist',
+        fontFamily: 'Gilroy',
         fontSize: 14.0,
         fontWeight: FontWeight.bold,
       ),
       bodyText2: TextStyle(
-        fontFamily: 'Urbanist',
+        fontFamily: 'Gilroy',
         fontSize: 14.0,
       ),
     ),

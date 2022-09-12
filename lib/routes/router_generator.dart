@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:web_archives/routes/router.dart';
-import 'package:web_archives/client/homepage.dart';
+import 'package:web_archives/client/pages/homepage.dart';
 
 class RouterGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {

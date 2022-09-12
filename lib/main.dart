@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:async_redux/async_redux.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:web_archives/client/homepage.dart';
+import 'package:web_archives/client/pages/homepage.dart';
 import 'package:web_archives/redux/app_state.dart';
 import 'package:web_archives/routes/router_generator.dart';
 import 'package:web_archives/setup/theme.dart';
