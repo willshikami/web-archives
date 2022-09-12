@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:web_archives/client/nav/nav_bar.dart';
 import 'package:web_archives/client/nav/nav_drawer.dart';
+import 'package:web_archives/client/widgets/category_section.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -18,13 +19,10 @@ class HomePage extends StatelessWidget {
         body: SingleChildScrollView(
           scrollDirection: Axis.vertical,
           child: Column(
-            children: <Widget>[
-              Column(
-                children: const <Widget>[
-                  NavBar(),
-                ],
-              ),
-              const SizedBox(
+            children: const <Widget>[
+              NavBar(),
+              CategorySection(),
+              SizedBox(
                 height: 24,
               )
             ],

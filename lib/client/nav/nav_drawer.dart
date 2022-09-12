@@ -16,39 +16,39 @@ class NavigationDrawer extends StatelessWidget {
       child: Column(
         children: <Widget>[
           // About
-          DrawerItem(
-            Icons.help,
-            callback: () => Navigator.pushNamed(
-              context,
-              Routes.home,
-            ),
-            color: Theme.of(context).shadowColor,
-            title: 'Projects/About ',
-          ),
+          // DrawerItem(
+          //   Icons.help,
+          //   callback: () => Navigator.pushNamed(
+          //     context,
+          //     Routes.home,
+          //   ),
+          //   color: Theme.of(context).shadowColor,
+          //   title: 'Projects/About ',
+          // ),
           // Dribbble
-          DrawerItem(
-            Icons.videocam,
-            callback: () {
-              js.context.callMethod(
-                'open',
-                ['https://dribbble.com/willshikami'],
-              );
-            },
-            color: AppColors.dribbleTextColor,
-            title: 'Dribbble',
-          ),
+          // DrawerItem(
+          //   Icons.videocam,
+          //   callback: () {
+          //     js.context.callMethod(
+          //       'open',
+          //       ['https://dribbble.com/willshikami'],
+          //     );
+          //   },
+          //   color: AppColors.dribbleTextColor,
+          //   title: 'Dribbble',
+          // ),
           // LinkedIn
-          DrawerItem(
-            Icons.help,
-            callback: () {
-              js.context.callMethod(
-                'open',
-                ['https://www.linkedin.com/in/willardshikami/'],
-              );
-            },
-            color: AppColors.linkedinTextColor,
-            title: 'LinkedIn',
-          ),
+          // DrawerItem(
+          //   Icons.help,
+          //   callback: () {
+          //     js.context.callMethod(
+          //       'open',
+          //       ['https://www.linkedin.com/in/willardshikami/'],
+          //     );
+          //   },
+          //   color: AppColors.linkedinTextColor,
+          //   title: 'LinkedIn',
+          // ),
         ],
       ),
     );

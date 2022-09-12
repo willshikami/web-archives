@@ -12,4 +12,6 @@ class AppColors {
   static const midGreyColor = Color(0xFFADB5BD);
   static const extraLightSecondaryColor = Color(0xFFE0E4F5);
   static const sectionBackgroundColor = Color(0xFFFBFBFB);
+  static const cardBackground = Color(0xFFFFCF7E);
+  
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:web_archives/routes/router.dart';
+import 'package:web_archives/setup/colors.dart';
 import 'package:web_archives/setup/responsive.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 
 class Logo extends StatefulWidget {
   const Logo({Key? key}) : super(key: key);
@@ -23,13 +23,13 @@ class _LogoState extends State<Logo> {
         onEnter: (event) => onEntered(true),
         onExit: (event) => onEntered(false),
         cursor: SystemMouseCursors.click,
-        child: CachedNetworkImage(
-          imageUrl: 'assets/images/logo.png',
-          width: isLargeScreen
-              ? 52
-              : isMobileScreen
-                  ? 40
-                  : 42,
+        child: const Text(
+          'Will\'s Archives',
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.w900,
+            color: AppColors.blackColor,
+          ),
         ),
       ),
     );
